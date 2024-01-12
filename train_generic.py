@@ -590,11 +590,11 @@ def metrics_evaluation(forecast_df):
 
 def train_predict(data,no_months_forecast):
     # creating output dir
-    st=time.time()
-    output_dir = r'C:\Users\Amit Kumar\OneDrive - ORMAE\Desktop\azure_webapp\output_genric'
-    output_dir = create_output_directory(output_dir)
-    end=time.time()
-    print("output_dir_time",end-st)
+    # st=time.time()
+    # output_dir = r'C:\Users\Amit Kumar\OneDrive - ORMAE\Desktop\azure_webapp\output_genric'
+    # output_dir = create_output_directory(output_dir)
+    # end=time.time()
+    # print("output_dir_time",end-st)
 
     st=time.time()
     required_col_name=["unique_id", "Date", "Values"]
